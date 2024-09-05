@@ -1,0 +1,83 @@
+// import express
+const express = require('express')
+// require path to make page files accessible
+const path = require('path');
+// use express (creating the app object by using the express function will allow us to use it.)
+const app = express();
+
+// Directory where the build output of React app is stored
+const buildPath = path.join(__dirname, '..', 'build');
+
+app.use(express.static(buildPath))
+
+// define the port direction for the root '/'; this is the first function to run.
+// req is an object containing information about the request
+// res is an object that lets us send send a response back to whoever is requesting it
+app.get('*', (req, res) => {
+    // Send a response by serving the index.html from the React build directory
+    res.sendFile(path.join(buildPath, 'index.html'))
+});
+
+// set up a the port. "process.env.PORT" makes the port dynamically accessible; if no port is dynamically provided, port 500 witll be used.
+const PORT = process.env.PORT || 500
+
+// tell our app to start listining to web requests made on the port "PORT"
+// the function within the app.listen will run as soon as the app runs successfully
+app.listen(PORT, () => {
+    // Printing a message as result of request to port "PORT"
+    console.log(`console running on port, ${PORT}`)
+})
+
+
+
+
+
+   <div style={styles.hero}>
+          {/* <div style={styles.left}>
+            <p style={styles.heroLine}>
+              Welcome to my portfolio! Feel free to check out my work and get
+              connected!
+            </p>
+          </div> */}
+          <div style={styles.right}>
+            <div style={styles.heroLine}>
+              <p>
+                Welcome to my portfolio! Feel free to check out my work and get
+                connected!
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+            {/* Hikari Project */}
+      <div className="projectContainerWide" style={styles.projectContainerWide}>
+      <a
+          href="https://hikarishopx-e0ede5b8b8e6.herokuapp.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="projectLink"
+        >
+        <div className="imageContainer hikari"></div>
+            </a>
+            <div style={styles.projectDescription}>
+              <p>
+                <strong>Hikari</strong>
+              </p>
+              <p>
+                I developed a full-stack web application using React for a
+                dynamic and responsive user interface, Node.js and Express.js
+                for a robust backend, and MongoDB for scalable data storage. The
+                app integrates Python scripts for data preprocessing, AWS for
+                secure cloud storage with S3 buckets, and is deployed on Heroku
+                with CI/CD pipelines using GitHub Actions to ensure continuous
+                delivery and high performance.
+              </p>
+            </div>
+      </div>

@@ -1,0 +1,139 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Better box model management */
+}
+
+body {
+  font-family: 'Arial', sans-serif; 
+}
+
+
+@media screen and (min-width: 700px) {
+  .mainContent {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+.textLeft {
+  font-size: 20;
+}
+
+.invisibleBadge {
+  display: none;
+}
+
+.estilo {
+  background-color: #EEEEEE;
+}
+
+.hero {
+  display: none;
+}
+
+.projectContainer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: red;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+
+
+.leftImage .imageContainer,
+.rightImage .imageContainer {
+  width: 40%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.leftImage .imageContainer {
+  order: 1; /* Image on the left */
+  background-color: yellow;
+}
+
+.rightImage .imageContainer {
+  order: 2; /* Image on the right */
+  background-color: purple;
+}
+
+.projectDescription {
+  font-size: 16px;
+  color: #333;
+  line-height: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projectLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+.projectLink:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Specific image styles */
+.hikari {
+  background-image: url('../images/projectsScreenshot/hikari.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.gradsApp {
+  background-image: url('../images/projectsScreenshot/gradsapp.png');
+}
+
+.gradsWebsite {
+  background-image: url('../images/projectsScreenshot/gradsweb.png');
+}
+
+.myImage {
+  background-image: url('../images/mypicture.jpeg');
+}
+
+.laUnionImg {
+  background-image: url('../images/projectsScreenshot/launion.png');
+}
+
+.weatherApp {
+  background-image: url('../images/projectsScreenshot/weather.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logoContainer {
+  width: 50px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+
+
