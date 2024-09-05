@@ -123,6 +123,28 @@ body {
   background-repeat: no-repeat;
 }
 
+
+@media screen and (max-width: 700px) {
+  .contentMain  {
+    /* background-color: red; */
+  }
+
+  .hidePhoto {
+    display: none;
+  }
+
+  .horizontal {
+    /* background-color: purple; */
+    flex-direction: column;
+  }
+
+  .horizontal .right {
+    /* background-color: green; */
+    
+  }
+  
+}
+
 .logoContainer {
   width: 50px;
   height: 100px;

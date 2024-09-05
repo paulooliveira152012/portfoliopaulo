@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/style";
 import Badge from "./badge";
-// import estilo from "../styles/estilo.css";
+import "../styles/estilo.css";
 
 const Content = () => {
   return (
@@ -25,7 +25,7 @@ const Content = () => {
           </div>
         </div>
 
-        <div style={styles.right} className="right">
+        <div style={styles.right} className="right hidePhoto">
           <div style={styles.imageContainerBoth}>
             <div style={styles.myPicture1} className="myPicture1"></div>
             <div className="invisibleBadge">
@@ -41,7 +41,7 @@ const Content = () => {
             <Badge />
           </div>
         </div>
-        <div style={styles.right}>
+        <div style={styles.right} className="right">
           <h2 style={styles.h2}>Get to know me a little!</h2>
           <div style={styles.textContainer}>
             <p style={{ lineHeight: 2 }}>
