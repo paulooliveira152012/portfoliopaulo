@@ -3,6 +3,9 @@
 // import myPicture1 from "../images/mypicture1.jpeg";
 import myPicture2 from "../images/mypicture2.jpeg"
 
+// import image for the about me page
+import myImageAboutPage from "../images/mypicture1.jpeg"
+
 // font create and export font from google
 export const globalStyle = {
   fontFamily: "'Inconsolata', monospace",
@@ -21,6 +24,16 @@ const styles = {
     color: "white",
   },
 
+  pageContainer: {
+    display: "flex",
+    flexDirection: "column",
+    minHeight: "100vh"
+  },
+
+  fullScreenContentContainer: {
+    flex: 1,
+  },
+
   body: {
     fontFamily: "'Arial', sans-serif", // Consistent font style
     backgroundColor: "black",
@@ -36,7 +49,8 @@ const styles = {
   },
 
   displayItem: {
-    marginRight: "20px" 
+    marginRight: "20px",
+    cursor: "pointer"
   },
 
   projectsContainer: {
@@ -246,8 +260,37 @@ const styles = {
 
   horizontal: {
     display: "flex",
-    // backgroundColor: "red"
+    // backgroundColor: "red",
+    padding: "40px"
   },
+
+
+  vertical: {
+    display: "flex",
+    flexDirection: "column",
+    backgroundColor: "green",
+    height: "100%",
+  },
+
+  myImageContainer: {
+    display: "flex",
+    backgroundColor: "purple",
+    alignItems: "center",
+    // height: "auto"
+    padding: "4%",
+  },
+
+  myImage: {
+    backgroundImage: `url(${myImageAboutPage})`,
+    width: "70%",
+    aspectRatio: 1,
+    backgroundSize: "cover",
+    backgroundPosition: "center 25%", // Adjusts vertical position
+    borderRadius: "50%",
+    flex: 1, // Keep if used within a flex container
+  },
+
+  
 
   //   story session
   writtenContent: {

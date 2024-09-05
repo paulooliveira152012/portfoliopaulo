@@ -11,7 +11,7 @@ const Content = () => {
         <div style={styles.left}>
           <div style={styles.textContainer}>
             <p style={{ lineHeight: 2 }}>
-              As a full-stack developer with two years of experience, I have
+              As a full-stack developer with tree years of experience having graduated from the fullstack web development bootcamp at Rutgers University, I have
               honed a broad skill set across web and mobile application
               development. My front-end capabilities include creating responsive
               and dynamic interfaces with HTML5, CSS, JavaScript, Bootstrap, and
@@ -19,8 +19,8 @@ const Content = () => {
               MongoDB. I am also developing my mobile skills using React Native
               to ensure seamless integration between front-end and back-end
               operations. Additionally, I have experience with AJAX API
-              interactions, Git, MERN stack, MySQL, progressive web applications
-              (PWAs), and user authentication.
+              interactions, Git, MERN stack, MySQL, AWS S3, progressive web
+              applications (PWAs), and user authentication.
             </p>
           </div>
         </div>
@@ -48,13 +48,12 @@ const Content = () => {
               In addition to my development work, I have managed projects at
               Grads, transforming the startup founder's vision into functional
               designs that align both front-end presentation and back-end
-              functionality. Currently, I further my expertise by teaching
-              coding fundamentals to children at The Coder School, using Scratch
-              and Python, which enhances my own skills in Python for automation
-              and data-driven projects. I am passionate about tackling new
-              coding challenges and continually adapting to advance in the tech
-              industry. I would be thrilled to bring my dedication and quality
-              work to your team.
+              functionality. Currently, I further my expertise by creating a web
+              and mobile application for a start up company im Brazil called
+              Hiroku getting exposed to new technologies such as Python, Heroku
+              and Vercel. I am passionate about tackling new coding challenges
+              and continually adapting to advance in the tech industry. I would
+              be thrilled to bring my dedication and quality work to your team.
             </p>
           </div>
         </div>

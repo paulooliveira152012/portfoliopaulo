@@ -11,10 +11,9 @@ import '../styles/estilo.css'
 function LandingPage() {
   return (
     <div style={styles.allContent}>
-      <UpperHeader />
       <Header />
       <Projects />
-      <Content />
+      {/* <Content /> */}
       <Footer />
     </div>
   );
