@@ -125,9 +125,7 @@ body {
 
 
 @media screen and (max-width: 700px) {
-  .contentMain  {
-    /* background-color: red; */
-  }
+  
 
   .hidePhoto {
     display: none;
@@ -136,11 +134,6 @@ body {
   .horizontal {
     /* background-color: purple; */
     flex-direction: column;
-  }
-
-  .horizontal .right {
-    /* background-color: green; */
-    
   }
   
 }
