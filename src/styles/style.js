@@ -53,35 +53,7 @@ const styles = {
     cursor: "pointer"
   },
 
-  projectsContainer: {
-    display: "flex",
-    flexDirection: "column", // Retain column direction if preferred, or remove this if you want to keep it horizontal
-    overflowX: "auto", // Enables horizontal scrolling
-    height: "auto",
-    backgroundColor: "black", // Background color from the second style
-    gap: "40px", // Space between projects
-    maxWidth: "1000px",
-    margin: "0 auto",
-    padding: "20px",
-    
-  },
-
-  projectContainerWide: {
-    backgroundColor:"black",
-    width: "100%",
-    padding: "20px",
-    borderRadius: "10px"
-  },
-
-  projectDescription: {
-    fontSize: "16px",
-    color: "white",
-    lineHeight: "2em",
-    textAlign: "justify",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center"
-  },
+  
 
   projectContainer: {
     display: "flex",

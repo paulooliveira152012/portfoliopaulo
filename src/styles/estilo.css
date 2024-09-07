@@ -33,6 +33,91 @@ body {
   display: none;
 }
 
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  height: auto;
+  background-color: black;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.projectContainerWide {
+  background-color: black;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.projectDescription {
+  font-size: 16px;
+  color: white;
+  line-height: 2em;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px 30px;
+}
+
+.projectDescription p {
+  color: white;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+  .projectsContainer {
+    padding: 0;
+  }
+  .projectContainerWide {
+    padding: 0;
+    border-radius: 0px;
+  }
+
+  .projectDescription {
+    /* background-color: red; */
+    padding: 5px;
+  }
+
+
+
+  /* Specific image styles */
+/* .hikari {
+  background-image: url('../images/projectsScreenshot/hikari.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.gradsApp {
+  background-image: url('../images/projectsScreenshot/gradsapp.png');
+}
+
+.gradsWebsite {
+  background-image: url('../images/projectsScreenshot/gradsweb.png');
+}
+
+.myImage {
+  background-image: url('../images/mypicture.jpeg');
+}
+
+.laUnionImg {
+  background-image: url('../images/projectsScreenshot/launion.png');
+}
+
+.weatherApp {
+  background-image: url('../images/projectsScreenshot/weather.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+  
+}
+
 .projectContainer {
   display: flex;
   align-items: center;
@@ -64,14 +149,7 @@ body {
   background-color: purple;
 }
 
-.projectDescription {
-  font-size: 16px;
-  color: #333;
-  line-height: 2em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
 
 .projectLink {
   display: flex;
@@ -98,7 +176,6 @@ body {
   background-image: url('../images/projectsScreenshot/hikari.png');
   background-size: contain;
   background-repeat: no-repeat;
-  margin-bottom: 20px;
 }
 
 .gradsApp {
@@ -115,6 +192,8 @@ body {
 
 .laUnionImg {
   background-image: url('../images/projectsScreenshot/launion.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .weatherApp {

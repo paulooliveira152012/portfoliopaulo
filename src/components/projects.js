@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "../styles/style";
+import '../styles/estilo.css'
 
 const Projects = () => {
   return (
-    <div style={styles.projectsContainer}>
+    <div style={styles.projectsContainer} className="projectsContainer">
 
    {/* Hikari Project */}
    <div className="projectContainerWide" style={styles.projectContainerWide}>
@@ -15,7 +16,7 @@ const Projects = () => {
         >
         <div className="imageContainer hikari"></div>
             </a>
-            <div style={styles.projectDescription}>
+            <div style={styles.projectDescription} className="projectDescription">
               <p>
                 <strong>Hikari</strong>
               </p>

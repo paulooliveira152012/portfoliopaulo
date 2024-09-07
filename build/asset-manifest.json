@@ -1,14 +1,24 @@
 {
   "files": {
-    "main.js": "/static/js/main.08928563.js",
+    "main.css": "/static/css/main.2af6818a.css",
+    "main.js": "/static/js/main.32f0c7f1.js",
     "static/js/453.4a91d8c7.chunk.js": "/static/js/453.4a91d8c7.chunk.js",
+    "static/media/gradsweb.png": "/static/media/gradsweb.a11e67dadd30a14b69c8.png",
+    "static/media/launion.png": "/static/media/launion.90ca5b1777423f7e8cee.png",
     "static/media/mypicture2.jpeg": "/static/media/mypicture2.5bd0576338dcf727996e.jpeg",
+    "static/media/hikari.png": "/static/media/hikari.24799545c393884fc555.png",
+    "static/media/mypicture1.jpeg": "/static/media/mypicture1.40fe555e09684a4ddef4.jpeg",
+    "static/media/gradsapp.png": "/static/media/gradsapp.0260c563f239371253ff.png",
+    "static/media/mypicture.jpeg": "/static/media/mypicture.0b3622171d0c238c17c6.jpeg",
+    "static/media/weather.png": "/static/media/weather.9d8ba87d14e9f05045b2.png",
     "static/media/resumePaulo.pdf": "/static/media/resumePaulo.8504164330eb51eac96f.pdf",
     "index.html": "/index.html",
-    "main.08928563.js.map": "/static/js/main.08928563.js.map",
+    "main.2af6818a.css.map": "/static/css/main.2af6818a.css.map",
+    "main.32f0c7f1.js.map": "/static/js/main.32f0c7f1.js.map",
     "453.4a91d8c7.chunk.js.map": "/static/js/453.4a91d8c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.08928563.js"
+    "static/css/main.2af6818a.css",
+    "static/js/main.32f0c7f1.js"
   ]
 }
