@@ -50,7 +50,11 @@ const styles = {
 
   displayItem: {
     marginRight: "20px",
-    cursor: "pointer"
+    cursor: "pointer",
+    color: 'rgba(255, 255, 255, 0.4)',
+    fontSize: "1.5ch",
+    fontFamily: "Arial, Helvetica, sans-serif"
+
   },
 
   

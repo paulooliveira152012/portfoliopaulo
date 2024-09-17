@@ -1,37 +1,50 @@
-import React, {useState, useEffect } from "react"
+import React, {useState} from "react"
 import styles from "../styles/style"
 import { useNavigate } from "react-router-dom"
 
-
-
 const UpperHeader = () => {
-    const [corDaCasa, seCorDaCasa] = useState('Preta') 
+    const [home, setHome] = useState(null) 
+    const [aboutMe, setAboutMe] = useState(null) 
     const navigation = useNavigate()
-
 
     const handleHomeClick = () => {
         console.log('Exibindo Home page')
+        setHome(true)
+        setAboutMe(false)
         navigation('/')
     }
 
     const handleAboutMeClick = () => {
         console.log("Exibindo About me Page")
+        setAboutMe(true)
+        setHome(false)
         navigation('aboutMe')
     }
 
-    useEffect(() => {
-        // console.log('a cor da casa e ', corDaCasa)
-    })
 
     return (
         <div style={styles.displayPage}>
-            <p style={styles.displayItem} onClick={handleHomeClick}>
+            <p
+                style={{
+                    ...styles.displayItem,
+                    color: home ? "white" : "rgba(255, 255, 255, 0.4)",
+                    cursor: "pointer",
+                    fontStyle: home ? "italic" : "normal"
+                }} 
+                onClick={handleHomeClick} 
+            >
                 Home
             </p>
             <p style={{...styles.displayItem, cursor:"default"}}>
                 |
             </p>
-            <p style={styles.displayItem} onClick={handleAboutMeClick}>
+            <p style={{
+                ...styles.displayItem,
+                color: aboutMe ? "white" : "rgba(255,255,255, 0.4",
+                cursor: "pointer",
+                fontStyle: aboutMe ? "italic" : "normal"
+            }} 
+            onClick={handleAboutMeClick}>
                 About Me
             </p>
         </div>
