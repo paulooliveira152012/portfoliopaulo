@@ -6,30 +6,30 @@ const Projects = () => {
   return (
     <div style={styles.projectsContainer} className="projectsContainer">
 
-   {/* Hikari Project */}
-   <div className="projectContainerWide" style={styles.projectContainerWide}>
-      <a
+      {/* Hikari Project */}
+      <div className="projectContainerWide" style={styles.projectContainerWide}>
+        <p>
+          <strong>Hikari</strong>
+        </p>
+        <a
           href="https://hikarishopx-e0ede5b8b8e6.herokuapp.com/"
           target="_blank"
           rel="noreferrer"
           className="projectLink"
         >
-        <div className="imageContainer hikari"></div>
-            </a>
-            <div style={styles.projectDescription} className="projectDescription">
-              <p>
-                <strong>Hikari</strong>
-              </p>
-              <p>
-                I developed a full-stack web application using React for a
-                dynamic and responsive user interface, Node.js and Express.js
-                for a robust backend, and MongoDB for scalable data storage. The
-                app integrates Python scripts for data preprocessing, AWS for
-                secure cloud storage with S3 buckets, and is deployed on Heroku
-                with CI/CD pipelines using GitHub Actions to ensure continuous
-                delivery and high performance.
-              </p>
-            </div>
+          <div className="imageContainer hikari"></div>
+        </a>
+        <div style={styles.projectDescription} className="projectDescription">
+          <p>
+            I developed a full-stack web application using React for a
+            dynamic and responsive user interface, Node.js and Express.js
+            for a robust backend, and MongoDB for scalable data storage. The
+            app integrates Python scripts for data preprocessing, AWS for
+            secure cloud storage with S3 buckets, and is deployed on Heroku
+            with CI/CD pipelines using GitHub Actions to ensure continuous
+            delivery and high performance.
+          </p>
+        </div>
       </div>
 
       {/* La Union Project */}

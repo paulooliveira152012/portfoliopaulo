@@ -6,11 +6,11 @@ import "../styles/estilo.css";
 const Content = () => {
   return (
     <div style={styles.main} className="contentMain">
-      <h2 style={styles.h2}>Know what I can do:</h2>
       <div style={styles.horizontal} className="horizontal">
         <div style={styles.left}>
           <div style={styles.textContainer}>
-            <p style={{ lineHeight: 2 }}>
+      <h2 style={styles.h2}>Know what I can do:</h2>
+            <p style={ styles.aboutMe }>
               As a full-stack developer with tree years of experience having graduated from the fullstack web development bootcamp at Rutgers University, I have
               honed a broad skill set across web and mobile application
               development. My front-end capabilities include creating responsive
@@ -42,9 +42,9 @@ const Content = () => {
           </div>
         </div>
         <div style={styles.right} className="right">
-          <h2 style={styles.h2}>Get to know me a little!</h2>
           <div style={styles.textContainer}>
-            <p style={{ lineHeight: 2 }}>
+          <h2 style={styles.h2}>Get to know me a little!</h2>
+            <p style={ styles.aboutMe }>
               In addition to my development work, I have managed projects at
               Grads, transforming the startup founder's vision into functional
               designs that align both front-end presentation and back-end
