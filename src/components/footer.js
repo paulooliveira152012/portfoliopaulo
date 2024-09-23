@@ -6,9 +6,11 @@ import {
   faLinkedin,
   faGithub,
   faInstagram,
+  
 } from "@fortawesome/free-brands-svg-icons";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faFile } from "@fortawesome/free-solid-svg-icons";
+import { faFile, faLink } from "@fortawesome/free-solid-svg-icons";
+
 
 const Footer = () => {
   return (
@@ -77,6 +79,18 @@ const Footer = () => {
             >
               <FontAwesomeIcon icon={faFile} color="#EEEEEE" />
             </a>
+            </li>
+            <li>
+                <a
+                href={"https://bold.pro/my/paulo-delacerdaoliveira"}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={styles.a}
+                aria-label="Resume"
+                download={resume}
+              >
+                <FontAwesomeIcon icon={faLink} color="#EEEEEE" />
+              </a>
             </li>
           </ul>
         </div>
