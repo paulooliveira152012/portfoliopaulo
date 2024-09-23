@@ -3,7 +3,7 @@ import styles from "../styles/style"
 import { useNavigate } from "react-router-dom"
 
 const UpperHeader = () => {
-    const [home, setHome] = useState(null) 
+    const [home, setHome] = useState(true) 
     const [aboutMe, setAboutMe] = useState(null) 
     const navigation = useNavigate()
 

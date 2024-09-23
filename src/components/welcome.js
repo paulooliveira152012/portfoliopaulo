@@ -7,7 +7,7 @@ import {
   faGithub,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import { faPhone, faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faEnvelope, faFile, faAlignLeft } from "@fortawesome/free-solid-svg-icons";
 import resume from "../docs/resumePaulo.pdf";
 
 const WelcomeMessage = () => {
@@ -20,7 +20,7 @@ const WelcomeMessage = () => {
   const messageParts = [
     "Welcome to my portfolio!",
     "I'm Paulo Oliveira ",
-    "Feel free to check out my work and get connected!"
+    "Feel free to check out my work and get connected!  "
   ];
 
   // Function to simulate typing effect
@@ -56,20 +56,24 @@ const WelcomeMessage = () => {
           color: "rgb(255, 255, 255)",
           fontFamily: "Arial, Helvetica, sans-serif",
           marginTop: "120px",
-          marginLeft: "52%",
+          marginLeft: "1%",
           fontSize: "2.5ch",
           fontWeight: "bold",
+          textAlign: "right",
         };
       } else {
         // Style for other texts
         style = {
           color: "rgb(255, 255, 255)",
           fontFamily: "Arial, Helvetica, sans-serif",
-          marginLeft: "52%",
+          marginLeft: "1%",
           fontSize: "1.4ch",
           fontWeight: "0.1",
           marginBottom: "250px",
           lineHeight: "1.5",
+          textAlign: "right",
+          
+
         };
       }
       

@@ -13,8 +13,8 @@ export const globalStyle = {
 
 export const textStyle = {
   fontFamily: "'Inconsolata', monospace",
-  fontSize: "16px", // Example font size
-  color: "#333", // Example color
+  // fontSize: "30px", // Example font size
+  // color: "#333", // Example color
 };
 
 const styles = {
@@ -57,7 +57,6 @@ const styles = {
 
   },
 
-  
 
   projectContainer: {
     display: "flex",
@@ -193,29 +192,40 @@ const styles = {
     // marginTop: "20px"
   },
 
+  // textos about me:
+
   textContainer: {
     // height: "300px",
     margin: "20px",
-    // backgroundColor: "white",
-    fontSize: "15px",
+    // backgroundColor: "red",
+    fontSize: "12px",
     textAlign: "justify",
     // display: "flex",
     flexDirection: "column",
+    lineHeight: "1",
     // height: "100%",
     // justifyContent: "space-evenly",
   },
 
-  textLeft: {
-    // margin: "20px",
-    fontSize: "15px",
-    display: "flex",
-    alignItems: "center", // This centers the content horizontally in the flex container
-    justifyContent: "center", // This centers the content vertically in the flex container
-    textAlign: "center",
-    color: "#EEEEEE",
-    textShadow:
-      "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000", // Adds an outline
+  aboutMe: {
+    lineHeight: 1.5,
+    marginTop: "15px",
   },
+
+// TEXTO WELCOME
+ textLeft: {
+  fontSize: "12px",
+  // backgroundColor: "red",
+  display: "flex",
+  justifyContent: "flex-start", // Alinha o conteúdo à esquerda no contêiner flex
+  alignItems: "center", // Centraliza verticalmente dentro do contêiner
+  textAlign: "left", // Alinha o texto à esquerda
+  color: "#EEEEEE",
+  textShadow:
+    "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000", // Adiciona contorno ao texto
+},
+
+  
 
   right: {
     flex: 1,
@@ -244,7 +254,7 @@ const styles = {
   vertical: {
     display: "flex",
     flexDirection: "column",
-    backgroundColor: "green",
+    // backgroundColor: "green",
     height: "100%",
   },
 
@@ -315,8 +325,11 @@ const styles = {
     listStyle: "none",
   },
 
+
+
   h2: {
-    margin: "20px ",
+    margin: "0px ",
+    // backgroundColor: "red"
   },
   
 };
