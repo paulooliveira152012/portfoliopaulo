@@ -183,6 +183,12 @@ body {
   background-repeat: no-repeat;
 }
 
+.cristaos {
+  background-image: url('../images/projectsScreenshot/cristaos.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 @media screen and (max-width: 700px) {
   .hidePhoto {
     display: none;

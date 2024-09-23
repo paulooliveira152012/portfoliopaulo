@@ -1,0 +1,28 @@
+[
+    {
+      "projectTitle": "Hikari",
+      "projectLink": "https://hikarishopx-e0ede5b8b8e6.herokuapp.com/",
+      "projectDescription": "I developed a full-stack web application using React for a dynamic and responsive user interface, Node.js and Express.js for a robust backend, and MongoDB for scalable data storage. The app integrates Python scripts for data preprocessing, AWS for secure cloud storage with S3 buckets, and is deployed on Heroku with CI/CD pipelines using GitHub Actions to ensure continuous delivery and high performance.",
+      "imageClass": "hikari"
+    },
+    {
+      "projectTitle": "La Union Tire Inc.",
+      "projectLink": "https://paulooliveira152012.github.io/launiontireinc/",
+      "projectDescription": "La Union Tire Inc. is a tire shop with a landing page built using HTML, JavaScript, and CSS. It provides essential information about services and invites visitors to explore further.",
+      "imageClass": "laUnionImg"
+    },
+    {
+      "projectTitle": "Weather App",
+      "projectLink": "https://paulooliveira152012.github.io/weather/",
+      "projectDescription": "Weather Dashboard: A web application utilizing HTML, CSS, and JavaScript to fetch real-time weather data via the OpenWeatherMap API. Users can search cities, view climate information, revisit searches, and manage a history of previous queries.",
+      "imageClass": "weatherApp"
+    },
+    {
+      "projectTitle": "Cristãos",
+      "projectLink": "https://cristaosweb-e5a94083e783.herokuapp.com/",
+      "projectDescription": "Weather Dashboard: A web application utilizing HTML, CSS, and JavaScript to fetch real-time weather data via the OpenWeatherMap API. Users can search cities, view climate information, revisit searches, and manage a history of previous queries.",
+      "imageClass": "cristaos"
+    }
+
+  ]
+  

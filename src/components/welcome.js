@@ -6,10 +6,11 @@ import {
   faLinkedin,
   faGithub,
   faInstagram,
+  // faLink
 } from "@fortawesome/free-brands-svg-icons";
-import { faPhone, faEnvelope, faFile, faAlignLeft } from "@fortawesome/free-solid-svg-icons";
-import resume from "../docs/resumePaulo.pdf";
-
+import { faPhone, faEnvelope, faFile, faAlignLeft, faLink } from "@fortawesome/free-solid-svg-icons";
+// import resume from "../docs/resumePaulo.pdf";
+import resume from "../docs/resume.pdf"
 const WelcomeMessage = () => {
   // State to control the text being displayed
   const [displayText, setDisplayText] = useState("");
@@ -66,12 +67,12 @@ const WelcomeMessage = () => {
         style = {
           color: "rgb(255, 255, 255)",
           fontFamily: "Arial, Helvetica, sans-serif",
-          marginLeft: "1%",
+          // marginLeft: "1%",
           fontSize: "1.4ch",
           fontWeight: "0.1",
           marginBottom: "250px",
           lineHeight: "1.5",
-          textAlign: "right",
+          // textAlign: "right",
           
 
         };
@@ -98,7 +99,7 @@ const WelcomeMessage = () => {
       {renderMessageParts()}
       {/* Social Media Icons */}
       {showIcons && (
-        <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
+        <div style={{ display: "flex", marginTop: "20px" }}>
           <a
             style={styles.a}
             href="https://www.linkedin.com/in/paulo-de-lacerda-oliveira-552677b7/"
@@ -147,6 +148,19 @@ const WelcomeMessage = () => {
             download={resume}
           >
             <FontAwesomeIcon icon={faFile} color="#EEEEEE" />
+          </a>
+
+          {/* https://bold.pro/my/paulo-delacerdaoliveira */}
+
+          <a
+            href={"https://bold.pro/my/paulo-delacerdaoliveira"}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={styles.a}
+            aria-label="Resume"
+            download={resume}
+          >
+            <FontAwesomeIcon icon={faLink} color="#EEEEEE" />
           </a>
         </div>
       )}
