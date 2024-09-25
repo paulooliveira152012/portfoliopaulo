@@ -1,4 +1,10 @@
 [
+  {
+    "projectTitle": "Cristãos",
+    "projectLink": "https://cristaosweb-e5a94083e783.herokuapp.com/",
+    "projectDescription": "I developed Cristaos, a full-stack web application, using React for an interactive user interface and Node.js/Express.js for the backend. The app supports real-time communication with Socket.IO, enabling live chat rooms and content sharing. It integrates MongoDB for flexible data storage and AWS S3 for secure image uploads. Deployed on Heroku, the app allows users to create blogs, share images, polls, and links, offering a seamless, dynamic experience across different content types.",
+    "imageClass": "cristaos"
+  },
     {
       "projectTitle": "Hikari",
       "projectLink": "https://hikarishopx-e0ede5b8b8e6.herokuapp.com/",
@@ -6,10 +12,10 @@
       "imageClass": "hikari"
     },
     {
-      "projectTitle": "Cristãos",
-      "projectLink": "https://cristaosweb-e5a94083e783.herokuapp.com/",
-      "projectDescription": "I developed Cristaos, a full-stack web application, using React for an interactive user interface and Node.js/Express.js for the backend. The app supports real-time communication with Socket.IO, enabling live chat rooms and content sharing. It integrates MongoDB for flexible data storage and AWS S3 for secure image uploads. Deployed on Heroku, the app allows users to create blogs, share images, polls, and links, offering a seamless, dynamic experience across different content types.",
-      "imageClass": "cristaos"
+      "projectTitle": "Grads",
+      "projectLink": "https://paulooliveira152012.github.io/grads/",
+      "projectDescription": "I developed Grads App, a landing webpage designed to showcase and promote a mobile application. Using HTML, CSS, JavaScript, Bootstrap, and jQuery, I created a modern, visually appealing site that effectively advertises the product. The site provides a seamless user experience, highlighting key features of the mobile app through engaging visuals and responsive design. It serves as a professional marketing tool, drawing attention to the app and encouraging users to explore and download it.",
+      "imageClass": "grads"
     },
     {
       "projectTitle": "La Union Tire Inc.",
