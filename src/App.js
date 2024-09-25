@@ -7,6 +7,8 @@ import UpperHeader from "./components/UpperHeader.js";
 
 function App() {
     return (
+        <div style={{backgroundColor: "black"}}>
+        <div style={{maxWidth: "1200px", margin: "auto"}}>
         <Router>
             <UpperHeader />
             <Routes>
@@ -14,6 +16,8 @@ function App() {
                 <Route path="aboutMe" element={<AboutMe />} />
             </Routes>
         </Router>
+        </div>
+        </div>
     );
 }
 
