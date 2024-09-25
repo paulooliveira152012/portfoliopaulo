@@ -60,7 +60,7 @@ const WelcomeMessage = () => {
           marginLeft: "1%",
           fontSize: "2.5ch",
           fontWeight: "bold",
-          textAlign: "right",
+          // textAlign: "right",
         };
       } else {
         // Style for other texts
@@ -73,8 +73,6 @@ const WelcomeMessage = () => {
           marginBottom: "250px",
           lineHeight: "1.5",
           // textAlign: "right",
-          
-
         };
       }
       
