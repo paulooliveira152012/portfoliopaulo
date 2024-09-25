@@ -5,7 +5,7 @@ import "../styles/estilo.css";
 
 const Content = () => {
   return (
-    <div style={styles.main} className="contentMain">
+    <div style={{...styles.main, background:"white"}} className="contentMain">
       <div style={styles.horizontal} className="horizontal">
         <div style={styles.left}>
           <div style={styles.textContainer}>
