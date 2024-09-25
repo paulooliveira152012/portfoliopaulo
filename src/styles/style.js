@@ -158,12 +158,13 @@ const styles = {
   heroContainer: {
     fontSize: "20px",
     // textAlign: "left",
-    width: "50%",
+    width: "auto",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
     height: "100%",
     // backgroundColor: "green",
+    marginRight: "10px"
   },
 
   left: {
