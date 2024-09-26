@@ -10,7 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faPhone, faEnvelope, faFile, faAlignLeft, faLink } from "@fortawesome/free-solid-svg-icons";
 // import resume from "../docs/resumePaulo.pdf";
-import resume from "../docs/resume.pdf"
+import resume from "../docs/paulodelacerdaoliveira.pdf"
 const WelcomeMessage = () => {
   // State to control the text being displayed
   const [displayText, setDisplayText] = useState("");
