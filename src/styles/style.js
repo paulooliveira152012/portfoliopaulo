@@ -1,7 +1,7 @@
 // style.js
 
 // import myPicture1 from "../images/mypicture1.jpeg";
-import myPicture2 from "../images/mypicture2.jpeg"
+import myPicture2 from "../images/mypicture1.jpeg"
 
 // import image for the about me page
 import myImageAboutPage from "../images/mypicture1.jpeg"
@@ -22,6 +22,12 @@ const styles = {
   allContent: {
     backgroundColor: "black",
     color: "white",
+  },
+
+  logoContainer: {
+    height: "20px",
+    width: "100%",
+    backgroundColor: "pink"
   },
 
   pageContainer: {
@@ -114,9 +120,6 @@ const styles = {
   },
 
 
-
-
-
   paragraph: {
     fontSize: "16px",
     color: "#333",
@@ -185,11 +188,12 @@ const styles = {
 
   myPicture1: {
     backgroundImage: `url(${myPicture2})`,
-    backgroundSize: "140%",
+    backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
+    backgroundPosition: `50% calc(50% + 35px)`, // Move image 20px lower
     height: "100%",
-    width: "50%",
+    aspectRatio: 1,
+    borderRadius: "50%"
     // marginTop: "20px"
   },
 
@@ -197,7 +201,7 @@ const styles = {
 
   textContainer: {
     // height: "300px",
-    margin: "20px",
+    // margin: "20px",
     // backgroundColor: "red",
     fontSize: "12px",
     textAlign: "justify",
@@ -206,6 +210,7 @@ const styles = {
     lineHeight: "1",
     // height: "100%",
     // justifyContent: "space-evenly",
+    marginBottom: "20px"
   },
 
   aboutMe: {

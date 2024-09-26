@@ -2,10 +2,12 @@ import React from "react";
 import styles from "../styles/style";
 import Badge from "./badge";
 import "../styles/estilo.css";
+import Logos from "../components/techlogos";
+import "../images/techLogos/logos.css"
 
 const Content = () => {
   return (
-    <div style={{...styles.main, background:"white"}} className="contentMain">
+    <div style={{...styles.main, background:"black", color: "white"}} className="contentMain">
       <div style={styles.horizontal} className="horizontal">
         <div style={styles.left}>
           <div style={styles.textContainer}>
@@ -23,7 +25,14 @@ const Content = () => {
               applications (PWAs), and user authentication.
             </p>
           </div>
+        <div className="logosContainerSmallScreen">
+        <Logos />
         </div>
+        <div className="logosContainerBigScreen">
+        <Logos />
+        </div>
+        </div>
+
 
         <div style={styles.right} className="right hidePhoto">
           <div style={styles.imageContainerBoth}>
@@ -34,6 +43,8 @@ const Content = () => {
           </div>
         </div>
       </div>
+
+      
 
       <div style={styles.horizontal} className="horizontal">
         <div style={styles.left}>

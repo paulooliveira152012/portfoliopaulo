@@ -9,6 +9,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 @media screen and (min-width: 700px) {
   .mainContent {
     width: 80%;
@@ -168,7 +170,7 @@ body {
 }
 
 .myImage {
-  background-image: url('../images/mypicture.jpeg');
+  background-image: url('../images/mypicture1.jpeg');
 }
 
 .laUnionImg {
@@ -205,13 +207,4 @@ body {
   }
 }
 
-.logoContainer {
-  width: 50px;
-  height: 100px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
